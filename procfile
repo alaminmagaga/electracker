@@ -1,2 +1,2 @@
 web: python manage.py collectstatic
-web: gunicorn civictech.wsgi
+web: gunicorn civictech.wsgi --log-file -
